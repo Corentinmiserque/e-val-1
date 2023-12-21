@@ -62,7 +62,7 @@ const fetchEvaluations = async (session) => {
 
             for (const evaluation of filteredEvaluations) {
                 evalsTemplate += `
-                    <a href='#' class="evaluation" data-eval-id="${evaluation.id}">${evaluation.acf.eval_date}</a>
+                    <a href='/formateurEvalPage.html' class="evaluation" data-eval-id="${evaluation.id}">${evaluation.acf.eval_date}</a>
                 `;
             }
 
