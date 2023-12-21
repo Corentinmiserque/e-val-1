@@ -1,0 +1,79 @@
+<section class="sessionCreate">
+    <h1 class="title sessionCreate__title">Session(s)</h1>
+
+    <form id="sessionForm">
+        <label for="formationCenter">Sélectionnez une ville :</label>
+        <select id="formationCenter" name="FormationCenter">
+            <option value="namur">Namur</option>
+            <option value="charleroi">Charleroi</option>
+            <option value="liege">Liège</option>
+        </select>
+
+        <div>
+            <label for="trainingTitle">Intitulé de formation :</label>
+            <input type="text" id="trainingTitle" name="trainingTitle" placeholder="Entrez l'intitulé de formation" required>
+        </div>
+
+        <div>
+            <label for="sessionCode">Code de session :</label>
+            <input type="text" id="sessionCode" name="sessionCode" placeholder="Entrez le code de session" required>
+        </div>
+
+        <div>
+            <label for="startDate">Date de début :</label>
+            <input type="date" id="startDate" name="startDate" required>
+        </div>
+
+        <div>
+            <label for="endDate">Date de fin :</label>
+            <input type="date" id="endDate" name="endDate" required>
+        </div>
+
+        <div>
+            <label for="inviteEmail">Inviter par e-mail :</label>
+            <input type="email" id="inviteEmail" name="inviteEmail" placeholder="Entrez l'adresse e-mail" required>
+        </div>
+
+        <button type="submit">Créer la session</button>
+        <button type="button">Inviter</button>
+    </form>
+</section>
+
+<div class="sessions">
+    <div class="session">
+        <div class="info">
+            <p class="session-code">12344</p>
+            <p class="participant">19</p>
+        </div>
+            <div class="evals">
+                <div class="eval">12/12</div>
+                <div class="eval">12/12</div>
+                <div class="eval">12/12</div>
+            </div>
+        </div>
+    </div>
+    <div class="session">
+        <div class="info">
+            <p class="session-code">12344</p>
+            <p class="participant">19</p>
+        </div>
+            <div class="evals">
+                <div class="eval">12/03</div>
+                <div class="eval">12/03</div>
+  
+            </div>
+        </div>
+    </div>
+    <div class="session">
+        <div class="info">
+            <p class="session-code">12344</p>
+            <p class="participant">19</p>
+        </div>
+            <div class="evals">
+                <div class="eval">2/02</div>
+                <div class="eval">03/03</div>
+
+            </div>
+        </div>
+    </div>
+</div>

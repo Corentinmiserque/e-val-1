@@ -1,0 +1,20 @@
+.page{
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    .left{
+        width: 45%;
+        background-color: rgb(196, 196, 196);
+        padding: 50px;
+    }
+    .right{
+        padding: 50px;
+        width: 55%;
+        display: flex;
+    }
+}
+
+.is-grouped {
+    align-items: end;
+}
